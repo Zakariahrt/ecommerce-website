@@ -1,0 +1,137 @@
+  /* Hero section styles */
+.hero-section {
+  background-color: #f1f1f1;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+     background-image: url("img/Discord.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  text-align: center;
+
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  color: #444444;
+  margin-bottom: 3rem;
+}
+
+.hero-content .btn {
+  font-size: 1.5rem;
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-content .btn:hover {
+  background-color: #333333;
+}
+
+/* Featured products styles */
+.featured-products {
+  background-color: #ffffff;
+  padding: 5rem 0;
+}
+
+.featured-products h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #262626;
+  margin-bottom: 3rem;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(33.33% - 1rem);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  color: #262626;
+  margin-bottom: 1rem;
+}
+
+.product p {
+  font-size: 1.25rem;
+  color: #444444;
+  margin-bottom: 1rem;
+}
+
+.product .btn {
+  font-size: 1.25rem;
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.product .btn:hover {
+  background-color: #333333;
+}
+
+/* Customer testimonials styles */
+.customer-testimonials {
+  background-color: #f1f1f1;
+  padding: 5rem 0;
+}
+
+.customer-testimonials h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #262626;
+  margin-bottom: 3rem;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: calc(33.33% - 1rem);
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 1.25rem;
+  color: #444444;
+  margin-bottom: 1rem;
+}
+
+.testimonial span {
+  font-size: 1.25rem;
+  color: #262626;
+  font-weight: bold;
+  margin-top: 1rem;
+}
